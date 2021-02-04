@@ -27,7 +27,7 @@ namespace SegundoEjercicio2
                 for (i = 0; i < 10; i++)
                 {
                     if (op[i] == 1 && sueldo[i] > 900000 || op[i] == 2 && sueldo[i] < 1000000)
-                        Console.WriteLine("Legajo: {0}|Sexo: {1}|Sueldo: {2}", NumFolio[i], op[i], sueldo[i]);
+                        Console.WriteLine("Numero de Folio: {0}|Sexo: {1}|Sueldo: {2}", NumFolio[i], op[i], sueldo[i]);
                 }
                 Console.Read();
             }
